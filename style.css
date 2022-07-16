@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.left-container {
+  position: fixed;
+  width: 380px;
+  height: 100vh;
+  background-color: #000000;
+}
+
+.photo-contact {
+  position: absolute;
+  top: 30px;
+  text-align: center;
+}
+
+.photo {
+  width: 75%;
+  border-radius: 20%;
+}
+
+.contact-bt {
+  width: 50%;
+  background-color: white;
+  border-radius: 14px;
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.contact-bt:hover {
+  background-color: black;
+  color: white;
+  transition: 1s;
+}
+
+.menu-bar {
+  position: fixed;
+  margin-left: 380px;
+  width: 970px;
+  height: 50px;
+  background-color: #800080;
+}
+
+.title {
+  padding: 20px;
+  font-style: italic;
+  font-size: 1.5rem;
+  margin-left: 30px;
+}
+
+.list-menu {
+  float: right;
+  padding: 15px;
+  padding-right: 50px;
+}
+
+.menu {
+  font-size: 1.1rem;
+  padding: 0 15px;
+  padding-top: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+.right-container {
+  margin-left: 380px;
+  width: 970px;
+  background-color: #ff00ff;
+}
+
+#profile {
+  padding-top: 250px;
+  padding-left: 60px;
+  font-size: 1.5rem;
+  color: whitesmoke;
+}
+
+#about {
+  padding-top: 100px;
+  padding-left: 60px;
+  padding-right: 100px;
+  font-size: 1.3rem;
+}
+
+#pendidikan {
+  padding-top: 100px;
+  padding-left: 60px;
+}
+
+#alamat {
+  padding-top: 100px;
+  padding-left: 60px;
+}
+
+#hobi {
+  padding-top: 100px;
+  padding-left: 60px;
+}
+
+#contact {
+  padding-top: 100px;
+  padding-left: 60px;
+}
+
+#footer {
+  text-align: center;
+  color: blue;
+  padding-bottom: 1cm;
+}
+
+p,
+li {
+  line-height: 150%;
+  color: white;
+}
+
+h3 {
+  color: white;
+}
+
+h1 {
+  color: yellow;
+}
